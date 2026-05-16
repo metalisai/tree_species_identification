@@ -1,0 +1,3 @@
+[submodule "rf-detr"]
+	path = rf-detr
+	url = git@github.com:metalisai/rf-detr.git
