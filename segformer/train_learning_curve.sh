@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="."
-DATASET_ROOT="compiled_datasets_3_fold"
+DATASET_ROOT="../data/compiled_datasets_3_fold"
 GSD="gsd_0p05"
 SPLIT_ROOT_NAME="datasets_learning_curve"
 TRAIN_OUTPUT_ROOT="${ROOT_DIR}/runs_lc_gsd0p05"
