@@ -79,7 +79,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--dataset-root",
         type=Path,
-        default=Path("../0818_clipped_forai/compiled_datasets"),
+        default=Path("../data/compiled_datasets_3_fold"),
         help="Directory containing gsd_* folders",
     )
     parser.add_argument(
