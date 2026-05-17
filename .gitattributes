@@ -1,0 +1,4 @@
+weights/rfdetr_10cm_fine.pth filter=lfs diff=lfs merge=lfs -text
+weights/rfdetr_10cm_maru_medium.pth filter=lfs diff=lfs merge=lfs -text
+weights/rfdetr_2cm_fine.pth filter=lfs diff=lfs merge=lfs -text
+weights/rfdetr_5cm_fine.pth filter=lfs diff=lfs merge=lfs -text
