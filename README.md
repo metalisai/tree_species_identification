@@ -19,6 +19,10 @@ Next follow the instructions in `data/README.md` to prepare the data for trainin
   
 Then follow the instructions in `rfdetrtrain/README.md` or `segformer/README.md` to train the tree species identification models.  
 
+## Inference
+
+Some trained RF-DETR weights are in `weights` folder.   
+Check `rfdetrtrain/README.md` for inference example.  
 
 ## AI usage
 OpenAI Codex was used to assist in writing the code in this repository.

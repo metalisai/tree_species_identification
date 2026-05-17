@@ -45,3 +45,10 @@ bash train_large.sh
 ## Notes
 
 - `train_param.py` is used internally by the scripts, but you can also call it directly for custom runs. The scripts are just convenient wrappers for reproducible experiments.
+
+## Manual Inference
+
+```bash
+python infer_manual.py --weights ../weights/rfdetr_10cm_maru_medium.pth --image ../examples/unseen_10cm.png --threshold 0.3
+```
+`--weights` and `--image` are required. Optionally use `--out output.png` and `--no-legend`.  

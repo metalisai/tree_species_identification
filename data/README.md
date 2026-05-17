@@ -5,7 +5,7 @@ This directory contains scripts for building tiled COCO datasets and learning-cu
 ## Prerequisites
 
 - Python 3.10+ (with `venv` support)
-- Input data files in this directory (for example `rgb_z1.tif`, `rgb_z2.tif`, `rgb_z3.tif`, and `Z1_polygons.gpkg`)
+- Input data files in this directory (for example `rgb_z1.tif`, `rgb_z2.tif`, `rgb_z3.tif`, `Z1_polygons.gpkg`, `Z2_polygons.gpkg`, `Z3_polygons.gpkg`)
 
 ## Setup from scratch
 
